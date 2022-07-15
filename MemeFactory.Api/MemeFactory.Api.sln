@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemeFactory.Api", "MemeFactory.Api.csproj", "{996CD5B6-3E77-4B3A-8379-6C2C0068BE41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9779E782-B192-49B4-BE25-A23D2C3A2BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemeFactory.Test", "..\MemeFactory.Test\MemeFactory.Test.csproj", "{A0696A98-0B23-47AB-9E6F-7F450CA77C34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{996CD5B6-3E77-4B3A-8379-6C2C0068BE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996CD5B6-3E77-4B3A-8379-6C2C0068BE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996CD5B6-3E77-4B3A-8379-6C2C0068BE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996CD5B6-3E77-4B3A-8379-6C2C0068BE41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0696A98-0B23-47AB-9E6F-7F450CA77C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0696A98-0B23-47AB-9E6F-7F450CA77C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0696A98-0B23-47AB-9E6F-7F450CA77C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0696A98-0B23-47AB-9E6F-7F450CA77C34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0696A98-0B23-47AB-9E6F-7F450CA77C34} = {9779E782-B192-49B4-BE25-A23D2C3A2BCF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EAD6EC8-DAA1-4AEF-AE37-65BE17D7F313}
+	EndGlobalSection
+EndGlobal
